@@ -1,5 +1,11 @@
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 
+> ⚠️ **Disclaimer:**  
+> This project is part of my personal data analytics portfolio.  
+> You are welcome to view it, but **reuse, modification, redistribution, or publishing** of any part (including `.pbix` or `.csv` files) is **strictly prohibited**.  
+> Protected under [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+---
 
 # 🚀 Real-Time Crypto Analytics Dashboard (with ML Forecasting)
 
@@ -142,10 +148,3 @@ Vishal Gupta
 [📫 LinkedIn](https://www.linkedin.com/in/itsvishal08/) | [📧 Gmail](mailto:itzmevishal08@gmail.com)
 
 ---
-
-## ⚠️ Copyright Notice
-
-This project and its contents are the intellectual property of Vishal Gupta.
-
-All rights reserved. You may not reuse, reproduce, or redistribute this project, in part or in full, for commercial or academic purposes without explicit permission.
-
