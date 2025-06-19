@@ -6,6 +6,7 @@
 > **Category:** Data Analytics · Machine Learning  
 > **Date:** May 2025  
 > **Client:** Self-Initiated (Portfolio Project)
+> > [🔗 View Project](https://insightsbyme.framer.ai/projects/crypto)
 
 A fully automated cryptocurrency analytics dashboard that unifies **live price tracking**, **historical data analysis**, and **future forecasting** in one interactive platform — powered by Python, MySQL, Facebook Prophet, and Power BI.
 
