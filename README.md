@@ -92,3 +92,23 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
    ```bash
    git clone https://github.com/heyvishal08/crypto-tracker-dashboard.git
    cd crypto-dashboard
+
+2. **Install Python Packages**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set Environment Variables**
+   ```bash
+   export DB_HOST="your-db-host"
+   export DB_PORT="your-db-port"
+   export DB_NAME="your-db-name"
+   export DB_USER="your-db-username"
+   export DB_PASSWORD="your-db-password"
+
+4. **Run Manually**
+   ```bash
+   python crypto.py            # To store live data
+   python forecast_prices.py   # To generate forecast
+
+
+
