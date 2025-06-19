@@ -1,3 +1,6 @@
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
+
+
 # 🚀 Real-Time Crypto Analytics Dashboard (with ML Forecasting)
 
 > **Category:** Data Analytics · Machine Learning  
@@ -135,6 +138,4 @@ Repo → Settings → Secrets → Actions → New Repository Secret
 This project and its contents are the intellectual property of Vishal Gupta.
 
 All rights reserved. You may not reuse, reproduce, or redistribute this project, in part or in full, for commercial or academic purposes without explicit permission.
-
-![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 
