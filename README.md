@@ -110,5 +110,22 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
    python crypto.py            # To store live data
    python forecast_prices.py   # To generate forecast
 
+## ⚙️ GitHub Actions (Automation)
 
+This repo includes a **.github/workflows/track.yml** workflow to:
 
+- ⏰ Run **crypto.py** every 15 minutes
+- 🔮 Run **forecast_prices.py** to insert future prices
+
+## ➕ Set GitHub Secrets
+
+Go to:
+Repo → Settings → Secrets → Actions → New Repository Secret
+
+| Secret Name                       | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| DB_HOST            | MySQL host (e.g. Railway URL)   |
+| DB_PORT	    | Usually 3306 or Railway port                         |
+| DB_NAME              | Database name                        |
+| DB_USER             | Username (e.g. root)       |
+| DB_PASSWORD           | Password              |
