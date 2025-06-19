@@ -134,6 +134,15 @@ Repo → Settings → Secrets → Actions → New Repository Secret
 | DB_USER             | Username (e.g. root)       |
 | DB_PASSWORD           | Password              |
 
+---
+
+## 👤 Author
+
+Vishal Gupta
+[📫 LinkedIn](https://www.linkedin.com/in/itsvishal08/) | [📧 Gmail](mailto:itzmevishal08@gmail.com)
+
+---
+
 ## ⚠️ Copyright Notice
 
 This project and its contents are the intellectual property of Vishal Gupta.
