@@ -26,8 +26,13 @@ for coin in coins:
         continue
 
     df = df.rename(columns={"timestamp": "ds", "price_usd": "y"})
+
+    # ✅ Remove timezone (Prophet does not support timezone-aware datetime)
+    df["ds"] = pd.to_datetime(df["ds"]).dt.tz_localize(None)
+
     model = Prophet(daily_seasonality=True)
     model.fit(df)
+
 
     future = model.make_future_dataframe(periods=forecast_days)
     forecast = model.predict(future)
