@@ -27,4 +27,4 @@ jobs:
       run: echo "SUPABASE_DB_URL=${{ secrets.SUPABASE_DB_URL }}" > .env
 
     - name: 🚀 Run live tracker
-      run: python crypto.py
+      run: python Crypto.py
