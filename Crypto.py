@@ -1,8 +1,8 @@
+# crypto.py
 import pandas as pd
 import requests
 from datetime import datetime
-from sqlalchemy import create_engine
-import os
+from config import engine
 
 def get_crypto_data(vs_currency="usd", coins=["bitcoin", "ethereum", "dogecoin"]):
     url = "https://api.coingecko.com/api/v3/coins/markets"
@@ -46,11 +46,11 @@ def store_data(df):
         print("⚠️ Skipped insert: DataFrame is empty")
         return
 
-    engine = create_engine(
-        f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
-    )
-    df.to_sql(name="prices", con=engine, if_exists="append", index=False)
-    print(f"✅ Stored {len(df)} rows at {datetime.utcnow()}")
+    try:
+        df.to_sql(name="prices", con=engine, if_exists="append", index=False)
+        print(f"✅ Stored {len(df)} rows at {datetime.utcnow()}")
+    except Exception as e:
+        print("❌ Insert error:", e)
 
 if __name__ == "__main__":
     df = get_crypto_data()

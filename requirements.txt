@@ -2,5 +2,5 @@ pandas
 requests
 sqlalchemy
 pymysql
+python-dotenv
 prophet
-Flask

@@ -1,15 +1,11 @@
+# forecast_prices.py
 import pandas as pd
 from prophet import Prophet
-from sqlalchemy import create_engine
-import os
+from config import engine
 from datetime import datetime
 import warnings
 
 warnings.filterwarnings("ignore")
-
-engine = create_engine(
-    f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
-)
 
 forecast_days = 7
 coins = ["bitcoin", "ethereum", "dogecoin"]
