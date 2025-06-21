@@ -1,8 +1,18 @@
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
+
+> ⚠️ **Disclaimer:**  
+> This project is part of my personal data analytics portfolio.  
+> You are welcome to view it, but **reuse, modification, redistribution, or publishing** of any part (including `.pbix` or `.csv` files) is **strictly prohibited**.  
+> Protected under [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+---
+
 # 🚀 Real-Time Crypto Analytics Dashboard (with ML Forecasting)
 
 > **Category:** Data Analytics · Machine Learning  
 > **Date:** May 2025  
 > **Client:** Self-Initiated (Portfolio Project)
+> > [🔗 View Project](https://insightsbyme.framer.ai/projects/crypto)
 
 A fully automated cryptocurrency analytics dashboard that unifies **live price tracking**, **historical data analysis**, and **future forecasting** in one interactive platform — powered by Python, MySQL, Facebook Prophet, and Power BI.
 
@@ -130,11 +140,11 @@ Repo → Settings → Secrets → Actions → New Repository Secret
 | DB_USER             | Username (e.g. root)       |
 | DB_PASSWORD           | Password              |
 
-## ⚠️ Copyright Notice
+---
 
-This project and its contents are the intellectual property of Vishal Gupta.
+## 👤 Author
 
-All rights reserved. You may not reuse, reproduce, or redistribute this project, in part or in full, for commercial or academic purposes without explicit permission.
+Vishal Gupta
+[📫 LinkedIn](https://www.linkedin.com/in/itsvishal08/) | [📧 Gmail](mailto:itzmevishal08@gmail.com)
 
-![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
-
+---
