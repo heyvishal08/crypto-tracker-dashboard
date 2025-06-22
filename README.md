@@ -62,7 +62,7 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
 | Feature                           | Description                                      |
 |----------------------------------|--------------------------------------------------|
 | 📈 Live Price Tracking            | Auto-refresh every 15 minutes (BTC, ETH, DOGE)   |
-| 📅 3+ Years of Historical Data    | Stored in MySQL cloud DB                         |
+| 📅 3+ Years of Historical Data    | Stored in Supabase (PostgreSQL) cloud DB                         |
 | 📉 7-Day Forecasting              | Facebook Prophet ML model                        |
 | 🔖 Smart Data Tagging             | Tag as `Live`, `Historical`, or `Forecast`       |
 | 🔍 Filterable Dashboard           | Filter by coin, date, and data type              |
@@ -75,7 +75,7 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
 ## 🧰 Tech Stack
 
 - **Python** (ETL, API handling, automation)
-- **MySQL** (Cloud database for storing crypto data)
+- **PostgreSQL** (Cloud database for storing crypto data)
 - **Facebook Prophet** (Time-series forecasting)
 - **Flask** (For backend scripts and deployment)
 - **Power BI** (Interactive dashboards)
@@ -109,15 +109,12 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
 
 3. **Set Environment Variables**
    ```bash
-   export DB_HOST="your-db-host"
-   export DB_PORT="your-db-port"
-   export DB_NAME="your-db-name"
-   export DB_USER="your-db-username"
-   export DB_PASSWORD="your-db-password"
+   SUPABASE_DB_URL=postgresql://[DB_USER]:[DB_PASS]@[DB_HOST]:[DB_PORT]/[DB_NAME]
+
 
 4. **Run Manually**
    ```bash
-   python crypto.py            # To store live data
+   python Crypto.py            # To store live data
    python forecast_prices.py   # To generate forecast
 
 ## ⚙️ GitHub Actions (Automation)
@@ -134,8 +131,8 @@ Repo → Settings → Secrets → Actions → New Repository Secret
 
 | Secret Name                       | Description                                      |
 |----------------------------------|--------------------------------------------------|
-| DB_HOST            | MySQL host (e.g. Railway URL)   |
-| DB_PORT	    | Usually 3306 or Railway port                         |
+| DB_HOST            | MySQL host (e.g. Postgre URL)   |
+| DB_PORT	    | Usually 3306 or postgre port                         |
 | DB_NAME              | Database name                        |
 | DB_USER             | Username (e.g. root)       |
 | DB_PASSWORD           | Password              |
