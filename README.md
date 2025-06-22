@@ -37,7 +37,7 @@ To track and predict cryptocurrency prices in real-time using end-to-end automat
 **From Idea to Automation:**
 
 - ✅ **Live Tracking** – Real-time data via [CoinGecko API](https://www.coingecko.com) for BTC, ETH, and DOGE (updates every 15 minutes)
-- ✅ **Historical Context** – 3+ years of past data stored in a MySQL cloud database
+- ✅ **Historical Context** – 3+ years of past data stored in a PostgreSQL cloud database
 - ✅ **ML Forecasting** – 7-day price prediction using **Facebook Prophet**
 - ✅ **Smart Tagging** – Label system to differentiate Live, Historical, and Forecast data
 - ✅ **Automation** – Fully automated pipeline with **GitHub Actions** (zero manual work)
