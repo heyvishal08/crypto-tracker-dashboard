@@ -1,12 +1,3 @@
-![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
-
-> ⚠️ **Disclaimer:**  
-> This project is part of my personal data analytics portfolio.  
-> You are welcome to view it, but **reuse, modification, redistribution, or publishing** of any part (including `.pbix` or `.csv` files) is **strictly prohibited**.  
-> Protected under [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
----
-
 # 🚀 Real-Time Crypto Analytics Dashboard (with ML Forecasting)
 
 > **Category:** Data Analytics · Machine Learning  
@@ -91,51 +82,6 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
 - ✅ Handled cloud deployment & automation with GitHub Actions
 - ✅ Designed a production-style ML + BI system
 - ✅ Learned how to monitor and evaluate prediction accuracy
-
----
-
-## ⚙️ Installation
-
-> This project assumes you're using a local Python environment. Replace with cloud infra if scaling.
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/heyvishal08/crypto-tracker-dashboard.git
-   cd crypto-dashboard
-
-2. **Install Python Packages**
-   ```bash
-   pip install -r requirements.txt
-
-3. **Set Environment Variables**
-   ```bash
-   SUPABASE_DB_URL=postgresql://[DB_USER]:[DB_PASS]@[DB_HOST]:[DB_PORT]/[DB_NAME]
-
-
-4. **Run Manually**
-   ```bash
-   python Crypto.py            # To store live data
-   python forecast_prices.py   # To generate forecast
-
-## ⚙️ GitHub Actions (Automation)
-
-This repo includes a **.github/workflows/track.yml** workflow to:
-
-- ⏰ Run **crypto.py** every 15 minutes
-- 🔮 Run **forecast_prices.py** to insert future prices
-
-## ➕ Set GitHub Secrets
-
-Go to:
-Repo → Settings → Secrets → Actions → New Repository Secret
-
-| Secret Name                       | Description                                      |
-|----------------------------------|--------------------------------------------------|
-| DB_HOST            | MySQL host (e.g. Postgre URL)   |
-| DB_PORT	    | Usually 3306 or postgre port                         |
-| DB_NAME              | Database name                        |
-| DB_USER             | Username (e.g. root)       |
-| DB_PASSWORD           | Password              |
 
 ---
 
