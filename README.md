@@ -88,6 +88,9 @@ This project isn’t just a dashboard — it’s a **real-world solution** that:
 ## 👤 Author
 
 Vishal Gupta
-[📫 LinkedIn](https://www.linkedin.com/in/itsvishal08/) | [📧 Gmail](mailto:itzmevishal08@gmail.com)
+[📫 LinkedIn](https://www.linkedin.com/in/itsvishal08/) 
+[📧 Gmail](mailto:itzmevishal08@gmail.com)
 
 ---
+
+> “From raw data to live decisions — this dashboard is my blueprint for building real-time, AI-powered analytics.”
