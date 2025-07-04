@@ -1,17 +1,5 @@
-Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+Copyright 2025 Vishal Gupta. All Rights Reserved.
 
-You are free to:
+This project, including all code, data, documentation, and associated assets, is the exclusive intellectual property of Vishal Gupta. It is intended solely for portfolio demonstration and evaluation purposes.
 
-✅ Share — copy and redistribute the material in any medium or format
-
-Under the following terms:
-
-❌ Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-❌ NonCommercial — You may not use the material for commercial purposes.
-
-❌ NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
-
-⚠️ No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-📜 Full license text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+Unauthorized copying, reproduction, distribution, modification, public display, or commercial use of any part of this project, in any form or by any means, without the express prior written permission of Vishal Gupta, is strictly prohibited.
